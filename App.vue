@@ -14,4 +14,10 @@
 
 <style>
 	/*每个页面公共css */
+.text-overflow{
+	/* 限制文字长度 */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
 </style>
