@@ -35,6 +35,24 @@
             }
             
         }
+        ,{
+            "path" : "pages/house/house",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "房屋详细",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布留言",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

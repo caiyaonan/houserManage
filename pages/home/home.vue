@@ -10,7 +10,7 @@
 
 		</view>
 		<view v-if="!isSearch" class="home-content">
-			<view v-for="(item,index) in 10" :key="index" class="home-content-item">
+			<view v-for="(item,index) in 10" :key="index" class="home-content-item" @click="onHouseJump">
 				<image src="../../static/img/house_1.jpg" mode="scaleToFill"></image>
 				<view class="text-area">
 					<view class="text-area-name  text-overflow">
@@ -68,6 +68,11 @@
 			},
 			onAreaNodeClick: function(e) {
 				console.log(e)
+			},
+			onHouseJump: function() {
+				uni.navigateTo({
+					url: '../house/house'
+				})
 			}
 		},
 		created() {
